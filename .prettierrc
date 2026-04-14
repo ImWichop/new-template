@@ -8,5 +8,10 @@
         "parser": "angular"
       }
     }
-  ]
+  ],
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "useTabs": true,
+    "semi": false
+  
 }
