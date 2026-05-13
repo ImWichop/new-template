@@ -1,0 +1,25 @@
+.layout-topbar-action.layout-topbar-action-highlight {
+  background-color: var(--primary-color);
+  color: var(--primary-contrast-color);
+}
+
+.layout-topbar-action {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  color: var(--text-color);
+  transition: background-color var(--element-transition-duration);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--surface-hover);
+  }
+
+  &.layout-topbar-action-highlight {
+    background-color: var(--primary-color);
+    color: var(--primary-contrast-color);
+}
+}
